@@ -33,12 +33,47 @@
             </nav>
         </header>
 
-        <main class="grow lg:px-20 text-gray-200">
+        <main class="grow flex flex-col justify-between items-center bg-gray-200 lg:mx-24 px-4 pt-8 pb-16 m-4 gap-y-8 text-gray-800 rounded-lg">
+            <h2 class="font-bold border-solid border-4 border-gray-800 rounded-lg shadow-lg px-2 py-4">Skills and technologies :</h2>
+
+            <div class="flex flex-row flex-wrap justify-center gap-4 items-center">
+                <img class="size-32"src="/images/python.png" title="Python">
+
+                <img class="w-30 h-32"src="/images/cplus.png" title="C++">
+
+                <img class="w-30 h-32"src="/images/c.png" title="C">
+
+                <img class="w-30 h-32 mx-4"src="/images/java.png" title="Java">
+
+                <img class="size-32"src="/images/javascript.png" title="Javascript">
+
+                <img class="size-32"src="/images/php.png" title="PHP">
+
+                <img class="size-32"src="/images/html.png" title="HTML">
+
+                <img class="size-32"src="/images/css.png" title="CSS">
+
+            </div>
+
+            <nav class="flex flex-row flex-wrap justify-around gap-2">
+                <button id="software" class="skills-button w-64">Software developpement</button>
+                <button id="web" class="skills-button w-64">Web developpement</button>
+                <button id="admin" class="skills-button w-64">System Administration</button>
+                <button id="misc" class="skills-button w-64">Misc</button>
+            </nav>
+
+            <div id="content" class="flex flex-col items-center gap-y-4">
+
+            </div>
+
         </main>
 
         <footer class="bg-gray-200 text-gray-800 shrink-0 flex flex-row h-16 justify-around items-center">
             <h4>BoldGoblins&#174; All rights reserved</h4>
             <h4>Made with &#9825; for $$$</h4>
         </footer>
+
+        <script src="./skills.js"> </script>
+        
     </body>
 </html>
