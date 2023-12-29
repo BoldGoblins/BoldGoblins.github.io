@@ -7,6 +7,10 @@
         @apply h-10 w-28 bg-gradient-to-t from-green-500 to-green-300 hover:scale-110 justify-center text-center rounded-lg shadow-xl;
     }
 
+    .skills-button {
+        @apply h-16 w-64 bg-gradient-to-t from-green-500 to-green-300 hover:scale-110 justify-center text-center rounded-lg shadow-xl;
+    }
+
     h1 {
         @apply text-6xl;
     }
