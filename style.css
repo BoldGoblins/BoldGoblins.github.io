@@ -954,6 +954,15 @@ h5 {
     grid-column-start: 3;
   }
 
+  .lg\:m-auto {
+    margin: auto;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
@@ -968,16 +977,8 @@ h5 {
     height: 4rem;
   }
 
-  .lg\:max-h-full {
-    max-height: 100%;
-  }
-
   .lg\:w-96 {
     width: 24rem;
-  }
-
-  .lg\:max-w-full {
-    max-width: 100%;
   }
 
   .lg\:grid-cols-6 {
@@ -986,6 +987,10 @@ h5 {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:items-center {
+    align-items: center;
   }
 
   .lg\:justify-between {
