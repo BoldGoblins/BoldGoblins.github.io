@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.slider {
+    width:640px;
+    height:420px;
+}
+
+:root {
+    --swiper-navigation-color: #ffffffd7;
+
+    --swiper-theme-color: #ffffffd7 !important;
+}
+
+
 @layer components {
     .nav-button {
         @apply h-10 w-28 bg-gradient-to-t from-green-500 to-green-300 hover:scale-110 justify-center text-center rounded-lg shadow-xl;
@@ -30,4 +42,13 @@
     h5 {
         @apply text-lg;
     }
+}
+
+@media (max-width: 700px) {
+
+    .slider {
+        width:320px;
+        height: 210px;
+    }
+    
 }
