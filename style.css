@@ -620,9 +620,6 @@ h5 {
 .w-2 {
   width: 0.5rem;
 }
-.w-32 {
-  width: 8rem;
-}
 .w-64 {
   width: 16rem;
 }
@@ -791,6 +788,10 @@ h5 {
   -o-object-fit: contain;
      object-fit: contain;
 }
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .p-10 {
   padding: 2.5rem;
 }
@@ -885,15 +886,38 @@ h5 {
   --tw-shadow-color: #ea580c;
   --tw-shadow: var(--tw-shadow-colored);
 }
+
+.slider {
+    width:640px;
+    height:420px;
+}
+
+:root {
+    --swiper-navigation-color: #ffffffd7;
+
+    --swiper-theme-color: #ffffffd7 !important;
+}
+
+@media (max-width: 700px) {
+
+    .slider {
+        width:320px;
+        height: 210px;
+    }
+    
+}
+
 .hover\:rotate-12:hover {
   --tw-rotate: 12deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
 @keyframes bounce {
 
   0%, 100% {
@@ -906,9 +930,11 @@ h5 {
     animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
 }
+
 .hover\:animate-bounce:hover {
   animation: bounce 1s infinite;
 }
+
 @media (min-width: 1024px) {
 
   .lg\:col-span-2 {

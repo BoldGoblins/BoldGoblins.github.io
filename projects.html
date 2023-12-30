@@ -6,6 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <!-- Swiper import : -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
         <!-- <script src="https://cdn.tailwindcss.com"></script> -->
         <title> Portfolio </title>
     </head>
@@ -33,12 +38,39 @@
             </nav>
         </header>
 
-        <main class="grow lg:px-20 text-gray-200">
+        <main class="grow flex flex-col items-center text-gray-800 bg-gray-200 lg:px-20 lg:mx-24 px-4 pt-8 pb-16 m-4 rounded-lg gap-y-8">
+                <!-- 
+                    + Swiper : class="w-full h-full object-containt ou object cover selon les tailles d'images 
+                    + CSS class "slider" : une classe perso déclarée dans le custom.css et qui gère les media queries
+                -->
+
+                <h2 class="font-bold  border-solid border-4 border-gray-800 rounded-lg shadow-lg px-2 py-4">Side-projects : </h2>
+
+                <h3 class="font-bold"> More content coming soon ! </h3>
+
+                <div id="slider" class="bg-gradient-to-br from-gray-950 to-gray-800 slider swiper rounded-lg">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"> <img src="./images/img.jpg" class="w-full h-full object-contain"> </div>
+                        <div class="swiper-slide"> <img src="./images/casque.jpg" class="w-full h-full object-cover"> </div>
+                        <div class="swiper-slide"> <img src="./images/gobelin.png" class="w-full h-full object-contain"> </div>
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+
+                    <div class="swiper-button-next"></div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+
         </main>
 
         <footer class="bg-gray-200 text-gray-800 shrink-0 flex flex-row h-16 justify-around items-center">
             <h4>BoldGoblins&#174; All rights reserved</h4>
             <h4>Made with &#9825; for $$$</h4>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="swiper.js"></script>
+
     </body>
 </html>
