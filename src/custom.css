@@ -23,6 +23,11 @@
         @apply h-16 w-64 bg-gradient-to-t from-green-500 to-green-300 hover:scale-110 justify-center text-center rounded-lg shadow-xl;
     }
 
+    .contact-button {
+        @apply flex flex-row justify-center items-center lg:w-96 gap-x-4 border-solid border-gray-600 border-4 rounded-lg px-1 py-2 lg:px-2 lg:py-4 shadow-lg 
+        hover:scale-110 ease-in-out duration-300 delay-75;
+    }
+
     h1 {
         @apply text-6xl;
     }
