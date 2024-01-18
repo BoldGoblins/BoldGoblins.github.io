@@ -555,23 +555,24 @@ h5 {
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
-.m-4 {
-  margin: 1rem;
+.m-8 {
+  margin: 2rem;
+}
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 .ml-3 {
   margin-left: 0.75rem;
@@ -630,6 +631,9 @@ h5 {
 .h-screen {
   height: 100vh;
 }
+.w-10\/12 {
+  width: 83.333333%;
+}
 .w-2 {
   width: 0.5rem;
 }
@@ -642,11 +646,11 @@ h5 {
 .w-screen {
   width: 100vw;
 }
+.max-w-screen-2xl {
+  max-width: 1536px;
+}
 .shrink-0 {
   flex-shrink: 0;
-}
-.grow {
-  flex-grow: 1;
 }
 .list-inside {
   list-style-position: inside;
@@ -678,8 +682,8 @@ h5 {
 .justify-around {
   justify-content: space-around;
 }
-.justify-stretch {
-  justify-content: stretch;
+.gap-16 {
+  gap: 4rem;
 }
 .gap-2 {
   gap: 0.5rem;
@@ -693,6 +697,9 @@ h5 {
 .gap-x-4 {
   -moz-column-gap: 1rem;
        column-gap: 1rem;
+}
+.gap-y-16 {
+  row-gap: 4rem;
 }
 .gap-y-2 {
   row-gap: 0.5rem;
@@ -971,10 +978,6 @@ h5 {
     grid-column-start: 3;
   }
 
-  .lg\:m-auto {
-    margin: auto;
-  }
-
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -1031,10 +1034,6 @@ h5 {
     gap: 0px;
   }
 
-  .lg\:gap-10 {
-    gap: 2.5rem;
-  }
-
   .lg\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -1053,5 +1052,17 @@ h5 {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .xl\:max-w-7xl {
+    max-width: 80rem;
   }
 }
