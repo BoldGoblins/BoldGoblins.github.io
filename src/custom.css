@@ -7,6 +7,11 @@
     height:420px;
 }
 
+.slider-mini {
+    width:480px;
+    height: 315px;
+}
+
 :root {
     --swiper-navigation-color: #ffffffd7;
 
@@ -54,6 +59,11 @@
     .slider {
         width:320px;
         height: 210px;
+    }
+
+    .slider-mini {
+        width:640px;
+        height:420px;
     }
     
 }
