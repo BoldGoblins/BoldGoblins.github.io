@@ -1139,6 +1139,10 @@ p.resume {
     margin-right: auto;
   }
 
+  .xl\:w-11\/12 {
+    width: 91.666667%;
+  }
+
   .xl\:max-w-7xl {
     max-width: 80rem;
   }
