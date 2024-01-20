@@ -918,10 +918,6 @@ p.resume {
 .p-2 {
   padding: 0.5rem;
 }
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1072,14 +1068,6 @@ p.resume {
 
   .sm\:p-4 {
     padding: 1rem;
-  }
-}
-
-@media (min-width: 768px) {
-
-  .md\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 }
 
