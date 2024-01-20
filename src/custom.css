@@ -21,7 +21,7 @@
 
 @layer components {
     .nav-button {
-        @apply h-10 w-28 bg-gradient-to-t from-green-500 to-green-300 hover:scale-110 justify-center text-center rounded-lg shadow-xl;
+        @apply h-10 w-28 sm:w-64 lg:w-28 bg-gradient-to-t from-green-500 to-green-300 hover:scale-110 justify-center text-center rounded-lg shadow-xl m-px;
     }
 
     .skills-button {
